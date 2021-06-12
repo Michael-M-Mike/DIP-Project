@@ -17,6 +17,6 @@ Here's a YouTube [video]() that shows our project in action!
 
 - [Pierre Nabil](https://github.com/PierreNabil)
 - [Michael Magdy](https://github.com/Michael-M-Mike)
-- [Christine Magdy](https://github.com/ChristineMagdy99)
+- [Girgis Michel](https://github.com/girgismicheal)
 - [John Bahaa](https://github.com/John-Bahaa)
 - [David John](https://github.com/DJ-Man-2099)
