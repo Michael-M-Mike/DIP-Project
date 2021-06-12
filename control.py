@@ -8,6 +8,7 @@ class Directions(enum.enum):
     LEFT = 1
     RIGHT = 2
     STOP = 3
+    SPACE = 4
 
 def controlling(direction):
     if direction==Directions.UP:
@@ -23,6 +24,11 @@ def controlling(direction):
       Keyboard.release(Key.left)
       Keyboard.press(Key.right)
     elif direction==Directions.STOP:
+      Keyboard.release(Key.up)
+      Keyboard.release(Key.left)
+      Keyboard.release(Key.right)
+    elif direction==Directions.SPACE:
+      Keyboard.press(Key.space)
       Keyboard.release(Key.up)
       Keyboard.release(Key.left)
       Keyboard.release(Key.right)
