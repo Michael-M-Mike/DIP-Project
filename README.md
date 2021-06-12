@@ -1,12 +1,6 @@
 ### 4th CSE - Digital Image Processing Project
 # Game Playing through Hand Gestures Recognition
 
-
-## Contents
- - [Project Description](#Project-Description)
- - [Demo](#Demo)
- - [Team Members](#Team-Members)
-
 ## Project Description
 The aim of this project is to develop a real-time software, capable of tracking and recognizing the users hand gestures, allowing them to control and play video games without needing game controllers.
 
