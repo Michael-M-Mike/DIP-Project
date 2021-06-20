@@ -9,23 +9,23 @@ def game_start():
     Game_Name = "Image Processing Project.exe" 
     #Game_Name = "Game.x86_64"
     process = subprocess.Popen(Game_Path, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
-    while not process_running(Game_Name):
-            pass
+    # while not process_running(Game_Name):
+    #         pass
             #print(process_running(Game_Name))
     #Keyboard.press(Key.tab) #May not work
 
-def process_running(process_name):
-    '''
-    Check if there is any running process that contains the given name processName.
-    '''
-    #Iterate over the all the running process
-    for proc in psutil.process_iter():
-        try:
-            # Check if process name contains the given name string.
-            #print(proc.name().lower())
-            if process_name.lower() in proc.name().lower():
-                return True
-        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
-            pass
-    return False
+# def process_running(process_name):
+#     '''
+#     Check if there is any running process that contains the given name processName.
+#     '''
+#     #Iterate over the all the running process
+#     for proc in psutil.process_iter():
+#         try:
+#             # Check if process name contains the given name string.
+#             #print(proc.name().lower())
+#             if process_name.lower() in proc.name().lower():
+#                 return True
+#         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess) as e:
+#             print(e)
+#     return False
 
