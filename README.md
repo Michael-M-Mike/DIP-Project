@@ -7,6 +7,9 @@ The aim of this project is to develop a real-time software, capable of tracking 
 ## Demo
 Here's a YouTube [video](https://drive.google.com/file/d/12c9tYtXKhVJ0GEscVciKN6Vj3ZfkKJdn/view?fbclid=IwAR0I3O_a72_7uz953NL4OrzMid9oN8tZr6ShvOUZw5bh-G_TQ11NyJR1b_w) that shows our project in action!
 
+## Usage
+You can run [reading_GUI.py](./reading_GUI.py) using python or run [this executable](./dist/game/game.exe) in the dist folder.
+
 ## Team Members
 
 - [Pierre Nabil](https://github.com/PierreNabil)
