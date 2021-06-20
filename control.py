@@ -3,7 +3,7 @@ import enum
 
 Keyboard = Controller()
 
-class Directions(enum.enum):
+class Directions(enum.Enum):
     UP = 0
     LEFT = 1
     RIGHT = 2
